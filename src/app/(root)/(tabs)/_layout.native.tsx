@@ -3,10 +3,10 @@ import { NativeTabs } from 'expo-router/unstable-native-tabs';
 export default function TabLayout() {
   return (
     <NativeTabs
-      backgroundColor="#FFFFFF"
-      iconColor="#6B7280"
-      tintColor="#0E4D92"
-      indicatorColor="#DBEAFE"
+      backgroundColor="#1A1A2E"
+      iconColor="#9CA3AF"
+      tintColor="#FFFFFF"
+      indicatorColor="#0E4D92"
     >
       <NativeTabs.Trigger name="home">
         <NativeTabs.Trigger.Label>Home</NativeTabs.Trigger.Label>

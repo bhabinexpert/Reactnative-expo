@@ -4,19 +4,10 @@
     "slug": "react-native-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/kribb.png",
+    "icon": "./assets/images/logo-glow.png",
     "scheme": "reactnativeapp",
     "userInterfaceStyle": "automatic",
-    "ios": {
-      "icon": "./assets/expo.icon"
-    },
     "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
-      },
       "predictiveBackGestureEnabled": false,
       "package": "com.anonymous.reactnativeapp"
     },
