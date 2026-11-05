@@ -11,7 +11,7 @@ const PropertyCard = ({
     showSave=false
 }:{
     property: Property;
-    onUsave?: () => void;
+    onUnsave?: () => void;
     showSave?:boolean;
 }) => {
     const router = useRouter()
@@ -28,7 +28,12 @@ const PropertyCard = ({
                 elevation: 4,
                 opacity: property.is_sold? 0.5 : 1,
                 }}
-        onPress={()=>router.push(`/(root)/property/${property.id}`)}
+        onPress={() =>
+          router.push({
+            pathname: "/(root)/property/[id]",
+            params: { id: property.id },
+          })
+        }
         >
             <Image
             source={{uri: property.images[0]}}
